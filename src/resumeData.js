@@ -1,6 +1,6 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
+    "imagebaseurl":"https://layneharris.com/",
+    "name": "Layne Harris",
     "role": "Frontend Developer and Data Scientist",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
@@ -8,26 +8,26 @@ let resumeData = {
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/layneharris/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/hellroy",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"http://twitter.com/hellroy",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am rockin' dude.",
+    "address":"Brooklyn, NY",
+    "website":"https://www.layneharris.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
+        "UniversityName":"NMHU",
         "specialization":"Some specialization",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2020",

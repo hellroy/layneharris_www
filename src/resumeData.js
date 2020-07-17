@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://layneharris.com/",
     "name": "Layne Harris",
-    "role": "Frontend Developer and Data Scientist",
+    "role": "Award-winning Creative Technologist",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "Award-winning Creative Technologist",
+    "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am rockin' dude.",
+    "aboutme":"I am a rockin' dude.",
     "address":"Brooklyn, NY",
     "website":"https://www.layneharris.com",
     "education":[
@@ -73,22 +73,26 @@ let resumeData = {
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/coffee.jpg"
+        "imgurl":"images/portfolio/coffee.jpg",
+        "contentURL":"portfolio.html"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/coffee.jpg"
+        "imgurl":"images/portfolio/coffee.jpg",
+        "contentURL":"images/portfolio/coffee.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/coffee.jpg"
+        "imgurl":"images/portfolio/coffee.jpg",
+        "contentURL":"images/portfolio/coffee.jpg"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/coffee.jpg"
+        "imgurl":"images/portfolio/coffee.jpg",
+        "contentURL":"images/portfolio/coffee.jpg"
       }
     ],
     "testimonials":[

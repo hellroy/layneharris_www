@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: rgb(23, 151, 255); }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: rgb(44, 44, 44);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -554,6 +554,16 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+
+.white-popup {
+   position: relative;
+   background: #FFF;
+   padding: 40px;
+   width: auto;
+   max-width: 200px;
+   margin: 20px auto;
+   text-align: center;
+ }
 
 
 /* fadein/fadeout effect for modal popup

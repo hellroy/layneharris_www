@@ -74,7 +74,7 @@ let resumeData = {
         "name":"project1",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "contentURL":"portfolio.html"
+        "content": "hi"
       },
       {
         "name":"project2",
@@ -86,13 +86,43 @@ let resumeData = {
         "name":"project3",
         "description":"mobileapp",  
         "imgurl":"images/portfolio/coffee.jpg",
-        "contentURL":"images/portfolio/coffee.jpg"
+        "content": "hi"
       },
       {
         "name":"project4",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "contentURL":"images/portfolio/coffee.jpg"
+        "content": "hi"
+      },
+      {
+        "name":"project4",
+        "description":"mobileapp",
+        "imgurl":"images/portfolio/coffee.jpg",
+        "content": "hi"
+      },
+      {
+        "name":"project4",
+        "description":"mobileapp",
+        "imgurl":"images/portfolio/coffee.jpg",
+        "content": "hi"
+      },
+      {
+        "name":"project4",
+        "description":"mobileapp",
+        "imgurl":"images/portfolio/coffee.jpg",
+        "content": "hi"
+      },
+      {
+        "name":"project4",
+        "description":"mobileapp",
+        "imgurl":"images/portfolio/coffee.jpg",
+        "content": "hi"
+      },
+      {
+        "name":"project4",
+        "description":"mobileapp",
+        "imgurl":"images/portfolio/coffee.jpg",
+        "content": "hi"
       }
     ],
     "testimonials":[

@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://layneharris.com/",
     "name": "Layne Harris",
-    "role": "** THIS SITE IS UNDER CONSTRUCTION **",
+    "role": "THIS SITE IS UNDER CONSTRUCTION",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
     "roleDescription": "",
@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"** THIS SITE IS UNDER CONSTRUCTION **",
+    "aboutme":"THIS SITE IS UNDER CONSTRUCTION",
     "address":"Brooklyn, NY",
     "website":"https://www.layneharris.com",
     "education":[

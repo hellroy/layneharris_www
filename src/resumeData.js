@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am a rockin' dude.",
+    "aboutme":"** THIS SITE IS UNDER CONSTRUCTION **",
     "address":"Brooklyn, NY",
     "website":"https://www.layneharris.com",
     "education":[

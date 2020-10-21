@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://layneharris.com/",
     "name": "Layne Harris",
-    "role": "Award-winning Creative Technologist",
+    "role": "** THIS SITE IS UNDER CONSTRUCTION **",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
     "roleDescription": "",

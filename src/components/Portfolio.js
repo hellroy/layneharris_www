@@ -14,7 +14,7 @@ export default class Porfolio extends Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#test-popup">
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                      <img src={`${item.imgurl}`} className="item-img" alt={item.name}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
@@ -24,7 +24,7 @@ export default class Porfolio extends Component {
                       <div id="test-popup" class="white-popup mfp-hide">
                       <h5>{item.name}</h5>
                           <p>{item.description}</p>
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                      <img src={`${item.imgurl}`} className="item-img" alt={item.name}/>
                               {item.content}
                           </div>
                     </a>

@@ -13,17 +13,17 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#test-popup">
+                    <a href={"#"+item.id}>
                       <img src={`${item.imgurl}`} className="item-img" alt={item.name}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+                          <p>{item.description + " overlay"}</p>
                         </div>
                       </div>
-                      <div id="test-popup" class="white-popup mfp-hide">
+                      <div id={item.id} class="white-popup mfp-hide">
                       <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+                          <p>{item.description  + " popup"}</p>
                       <img src={`${item.imgurl}`} className="item-img" alt={item.name}/>
                               {item.content}
                           </div>

@@ -71,58 +71,68 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
+        "id":"1",
+        "name":"Project 1",
+        "description":"A project",
         "imgurl":"images/portfolio/coffee.jpg",
-        "content": "hi"
+        "content": "Content - Something about project 1"
       },
       {
-        "name":"project2",
+        "id":"2",
+        "name":"Project 2",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "contentURL":"images/portfolio/coffee.jpg"
+        "contentURL":"images/portfolio/coffee.jpg",
+        "content": "Content - Something about project 2"
       },
       {
+        "id":"3",
         "name":"project3",
         "description":"mobileapp",  
         "imgurl":"images/portfolio/coffee.jpg",
-        "content": "hi"
+        "content": "Content - Something about project 3"
       },
       {
+        "id":"4",
         "name":"project4",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "content": "hi"
+        "content": "Content - Something about project 4"
       },
       {
-        "name":"project4",
+        "id":"5",
+        "name":"project5",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "content": "hi"
+        "content": "Content - Something about project 5"
       },
       {
-        "name":"project4",
+        "id":"6",
+        "name":"project6",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "content": "hi"
+        "content": "Content - Something about project 6"
       },
       {
-        "name":"project4",
+        "id":"7",
+        "name":"project7",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "content": "hi"
+        "content": "Content - Something about project 7"
       },
       {
-        "name":"project4",
+        "id":"8",
+        "name":"project8",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "content": "hi"
+        "content": "Content - Something about project 8"
       },
       {
-        "name":"project4",
+        "id":"9",
+        "name":"project9",
         "description":"mobileapp",
         "imgurl":"images/portfolio/coffee.jpg",
-        "content": "hi"
+        "content": "Content - Something about project 9"
       }
     ],
     "testimonials":[

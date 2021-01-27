@@ -74,8 +74,8 @@ let resumeData = {
         "id":"1",
         "name":"Project 1",
         "description":"A project",
-        "imgurl":"images/portfolio/coffee.jpg",
-        "content": "Content - Something about project 1"
+        "imgurl":"images/portfolio/105_lex.png",
+        "content": "Content - Something about project 1. \n test."
       },
       {
         "id":"2",
@@ -146,5 +146,5 @@ let resumeData = {
       }
     ]
   }
-  
+
   export default resumeData

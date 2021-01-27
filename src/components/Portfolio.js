@@ -10,7 +10,6 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              var myEscapedJSONString = item.content.escapeSpecialChars();
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
@@ -26,7 +25,7 @@ export default class Porfolio extends Component {
                       <h5>{item.name}</h5>
                           <p>{item.description  + " popup"}</p>
                       <img src={`${item.imgurl}`} className="item-img" alt={item.name}/>
-                              {myEscapedJSONString}
+                              {item.content}
                           </div>
                     </a>
                   </div>
@@ -40,16 +39,4 @@ export default class Porfolio extends Component {
   </section>
         );
   }
-
 }
-
-String.prototype.escapeSpecialChars = function() {
-  return this.replace(/\\n/g, "\\n")
-             .replace(/\\'/g, "\\'")
-             .replace(/\\"/g, '\\"')
-             .replace(/\\&/g, "\\&")
-             .replace(/\\r/g, "\\r")
-             .replace(/\\t/g, "\\t")
-             .replace(/\\b/g, "\\b")
-             .replace(/\\f/g, "\\f");
-};

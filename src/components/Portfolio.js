@@ -10,7 +10,6 @@ export default class Porfolio extends Component {
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              var myJSONString = JSON.stringify(item.content);
               var myEscapedJSONString = item.content.escapeSpecialChars();
               return(
                 <div className="columns portfolio-item">

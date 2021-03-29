@@ -145,16 +145,6 @@ let resumeData = {
         "name":"Some technical guy"
       }
     ],
-    "cube":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
   }
 
   export default resumeData

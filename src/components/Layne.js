@@ -2,6 +2,7 @@ import React, {
     Component
 } from 'react';
 
+
 import * as THREE from "three";
 import {
     GLTFLoader
@@ -96,7 +97,7 @@ export default class About extends Component {
 
         animate();
 
-        return ('');
+        return (<React.Fragment></React.Fragment>);
 
     }
 }

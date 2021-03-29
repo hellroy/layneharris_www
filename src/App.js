@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 // import ContactUs from './components/ContactUs';
 // import Footer from './components/Footer';
  import resumeData from './resumeData';
-import Cube from './components/Cube';
+//import Cube from './components/Cube';
 import Layne from './components/Layne';
 
 class App extends Component {
@@ -21,7 +21,6 @@ class App extends Component {
         <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/> */}
-        <Cube resumeData={resumeData}/>
         <Layne resumeData={resumeData}/>
       </div>
     );

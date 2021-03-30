@@ -56,7 +56,7 @@ export default class About extends Component {
                 composer.addPass(effect1);
 
                 const effect2 = new ShaderPass(RGBShiftShader);
-                effect2.uniforms['amount'].value = 0.15;
+                effect2.uniforms['amount'].value = 0.0075;
                 composer.addPass(effect2);
 
                 //
@@ -68,7 +68,7 @@ export default class About extends Component {
                     // called when the resource is loaded
                     (gltf) => {
 
-                        gltf.scene.scale.set(0.05, 0.05, 0.05) // scale here
+                        gltf.scene.scale.set(0.07, 0.07, 0.07) // scale here
                         model = gltf.scene;
                         model.castShadow = true;
                         model.receiveShadow = true;

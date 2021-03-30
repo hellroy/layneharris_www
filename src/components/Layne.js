@@ -33,8 +33,9 @@ export default class About extends Component {
                 const renderer = new THREE.WebGLRenderer({
                     antialias: true
                 });
-                renderer.setSize(window.innerWidth, window.innerHeight);
-                document.body.appendChild(renderer.domElement);
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				document.body.appendChild( renderer.domElement );
 
                 camera.position.z = 5;
 
@@ -87,6 +88,16 @@ export default class About extends Component {
                     },
 
                 );
+
+                function onWindowResize() {
+
+                    camera.aspect = window.innerWidth / window.innerHeight;
+                    camera.updateProjectionMatrix();
+    
+                    renderer.setSize( window.innerWidth, window.innerHeight );
+                    composer.setSize( window.innerWidth, window.innerHeight );
+    
+                }
 
             const animate = function () {
                 requestAnimationFrame(animate);

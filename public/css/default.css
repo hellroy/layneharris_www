@@ -144,7 +144,7 @@ html {
 
 body {
    background: #fff;
-   font-family: 'opensans-regular', sans-serif;
+   font-family: 'bdr-mono', sans-serif;
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
@@ -160,7 +160,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
-   font-family: bdr-mono,sans-serif;
+   font-family: 'bdr-mono', sans-serif;
    font-weight: 700;
    font-style: normal;
 

@@ -33,7 +33,7 @@ export default class About extends Component {
         // Load a glTF resource
         loader.load(
             // resource URL
-            'models/layne.glb',
+            './models/layne.glb',
             // called when the resource is loaded
             (gltf) => {
 

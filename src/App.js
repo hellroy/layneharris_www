@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import Header from './components/Header';
+import Header from './components/Header';
 // import About from './components/About';
 // import Resume from './components/Resume';
 // import Portfolio from './components/Portfolio';
@@ -21,6 +21,7 @@ class App extends Component {
         <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/> */}
+        <Header resumeData={resumeData}/>
         <Cube resumeData={resumeData}/>
         <Layne resumeData={resumeData}/>
       </div>

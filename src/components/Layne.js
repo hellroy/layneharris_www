@@ -112,6 +112,8 @@ export default class About extends Component {
             };
 
             animate();
+            
+            window.addEventListener( 'resize', onWindowResize );
 
         return (<React.Fragment>
             <section id="about"></section>

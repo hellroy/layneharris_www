@@ -52,7 +52,7 @@ export default class About extends Component {
                 composer.addPass(new RenderPass(scene, camera));
 
                 const effect1 = new ShaderPass(DotScreenShader);
-                effect1.uniforms['scale'].value = 100;
+                effect1.uniforms['scale'].value = 5;
                 composer.addPass(effect1);
 
                 const effect2 = new ShaderPass(RGBShiftShader);

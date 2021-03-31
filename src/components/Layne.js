@@ -16,10 +16,6 @@ import { DotScreenShader } from 'three/examples/jsm/shaders/DotScreenShader.js';
 
 export default class About extends Component {
 
-    constructor(props){
-        super(props)
-    }
-
     loadModel(){
         let modelReady;
         let model;
@@ -112,7 +108,7 @@ export default class About extends Component {
 
     render() {
         this.loadModel();
-        
+
         return (
             <section id="about">
             </section>

@@ -5,10 +5,14 @@ import Header from './components/Header';
 // import Portfolio from './components/Portfolio';
 // import Testimonials from  './components/Testimonials';
 // import ContactUs from './components/ContactUs';
-// import Footer from './components/Footer';
+ import Footer from './components/Footer';
  import resumeData from './resumeData';
 //import Cube from './components/Cube';
-import Layne from './components/Layne';
+//import Layne from './components/Layne';
+
+//import Spaceboxes from './components/Spaceboxes';
+
+import LazyLayne from './components/LazyLayne';
 
 class App extends Component {
   render() {
@@ -22,10 +26,14 @@ class App extends Component {
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/> */}
         <Header resumeData={resumeData}/>
-        <Layne resumeData={resumeData}/>
+        <LazyLayne/>
+        {/* <div id="laynehead"><Layne resumeData={resumeData}/></div>
+        <div id="Spaceboxes"><Spaceboxes/></div> */}
+        <Footer resumeData={resumeData}/>
       </div>
     );
   }
+
 }
 
 export default App;

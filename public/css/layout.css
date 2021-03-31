@@ -230,6 +230,17 @@ ul#nav li.current a { color: rgb(23, 151, 255); }
    font-size: 20px;
 }
 
+/* ------------------------------------------------------------------ */
+/* d. Spaceboxes Section
+/* ------------------------------------------------------------------ */
+#spaceboxes {
+   background: #000;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   margin: 0px;
+   overflow: hidden;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -937,6 +948,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
+   margin-top: 0px;
    color: #303030;
    font-size: 14px;
    text-align: center;
@@ -1012,5 +1024,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #75d8ff; }
 

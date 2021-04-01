@@ -5,7 +5,7 @@ import Header from './components/Header';
 // import Portfolio from './components/Portfolio';
 // import Testimonials from  './components/Testimonials';
 // import ContactUs from './components/ContactUs';
- import Footer from './components/Footer';
+ //import Footer from './components/Footer';
  import resumeData from './resumeData';
 //import Cube from './components/Cube';
 //import Layne from './components/Layne';
@@ -29,7 +29,6 @@ class App extends Component {
         <LazyLayne/>
         {/* <div id="laynehead"><Layne resumeData={resumeData}/></div>
         <div id="Spaceboxes"><Spaceboxes/></div> */}
-        <Footer resumeData={resumeData}/>
       </div>
     );
   }

@@ -4,7 +4,7 @@ export default class Testimonials extends Component {
     //let resumeData = this.props.resumeData;
     return (
       <section id="spaceboxes">
-        <video id="vid" loop autoPlay muted src="./videos/spaceboxes.mp4">
+        <video id="vid" loop autoPlay muted src="./videos/Comp.mp4">
         Your browser does not support the video tag.
         </video>
       </section>
